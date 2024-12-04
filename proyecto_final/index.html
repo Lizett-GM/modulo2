@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY ONLINE STORE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <div class="logo">
+      <img src="img/logorojo3.png" alt="logoempresa" width="100" />
+    </div>
+    <nav>
+      <ul class="enlaces">
+        <li><a href="#acercade">ACERCA DE</a></li>
+        <li><a href="#hombre">HOMBRES</a></li>
+        <li><a href="#mujeres">MUJERES</a></li>
+        <li><a href="#servicios">SERVICIOS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <!--! contenedor1 -->
+    <section id="contenedor1">
+      <div class="carrusel">
+        <div class="carrusel-imagen activo">
+          <img src="img/banner1a.jpg" alt="banner6" />
+        </div>
+        <div class="carrusel-imagen">
+          <img src="img/banner1b.jpg" alt="banner" />
+        </div>
+        <div class="carrusel-imagen">
+          <img src="img/banner1c.jpg" alt="banner" />
+        </div>
+      </div>
+      <button class="carrusel-boton atras">&lt;</button>
+      <button class="carrusel-boton siguiente">&gt;</button>
+      <button onclick="location.href='#tendencia';" class="boton">
+        VER AHORA!
+      </button>
+    </section>
+
+    <main>
+      <!--! contenedor-descuento -->
+      <div class="contenedor-descuento">
+        <img src="img/descuento.png" alt="descuento" class="descuento" />
+      </div>
+
+      <div class="titulo-con-lineas">
+        <div class="linea"></div>
+        <h3 id="tendencia">POR TENDENCIA</h3>
+        <div class="linea"></div>
+      </div>
+
+      <section id="about" class="about">
+        <!--! SECCION tarjetas -->
+        <section class="portfolio">
+          <div class="tarjeta-container">
+            <!-- Tarjeta 1 -->
+            <div class="tarjeta">
+              <div class="fondo-tarjeta">
+                <img
+                  src="img/producto-1a.jpg"
+                  alt="tarjeta 1"
+                  data-hover="img/producto-1b.jpg"
+                />
+              </div>
+              <div class="texto-tarjeta">
+                <h6>BATA</h6>
+                <p>TENIS MODA N2 NEGRO - HOMBRE</p>
+                <p class="precio">Bs.100.00</p>
+              </div>
+              <button class="btn-agregar">Añadir al carrito</button>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta">
+              <div class="fondo-tarjeta">
+                <img
+                  src="img/producto-2a.jpg"
+                  alt="tarjeta 2"
+                  data-hover="img/producto-2b.jpg"
+                />
+              </div>
+              <div class="texto-tarjeta">
+                <h6>MANACO</h6>
+                <p>TENIS MODA N2 NEGRO - MUJER</p>
+                <p class="precio">Bs.200.00</p>
+              </div>
+              <button class="btn-agregar">Añadir al carrito</button>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="tarjeta">
+              <div class="fondo-tarjeta">
+                <img
+                  src="img/producto-3a.jpg"
+                  alt="tarjeta 3"
+                  data-hover="img/producto-3b.jpg"
+                />
+              </div>
+              <div class="texto-tarjeta">
+                <h6>BATA</h6>
+                <p>TENIS MODA N3 BLANCO - HOMBRE</p>
+                <p class="precio">Bs.250.00</p>
+              </div>
+              <button class="btn-agregar">Añadir al carrito</button>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="tarjeta">
+              <div class="fondo-tarjeta">
+                <img
+                  src="img/producto-4a.jpg"
+                  alt="tarjeta 4"
+                  data-hover="img/producto-4b.jpg"
+                />
+              </div>
+              <div class="texto-tarjeta">
+                <h6>NORTH STAR</h6>
+                <p>TENIS MODA NS2 BLANCO- HOMBRE</p>
+                <p class="precio">Bs.180.00</p>
+              </div>
+              <button class="btn-agregar">Añadir al carrito</button>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="tarjeta">
+              <div class="fondo-tarjeta">
+                <img
+                  src="img/producto-5a.jpg"
+                  alt="tarjeta 4"
+                  data-hover="img/producto-5b.jpg"
+                />
+              </div>
+              <div class="texto-tarjeta">
+                <h6>NORTH STAR</h6>
+                <p>TENIS MODA NS 2 PLOMO- HOMBRE</p>
+                <p class="precio">Bs.400.00</p>
+              </div>
+              <button class="btn-agregar">Añadir al carrito</button>
+            </div>
+          </div>
+        </section>
+
+        <div class="titulo-con-lineas">
+          <div class="linea"></div>
+          <h3>PARA QUIEN TE GUSTARIA COMPRAR?</h3>
+          <div class="linea"></div>
+        </div>
+        <!--!PARA QUIEN TE GUSTARIA COMPRAR?<  -->
+        <section class="contenedor3">
+          <div class="container">
+            <div class="card">
+              <div class="image-container">
+                <img src="img/BOTON_HOMBRE.jpg" alt="Imagen 1" />
+                <div class="overlay">
+                  <p>HOMBRE</p>
+                  <button>Click</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-container">
+                <img src="img/BOTON_MUJER.jpg" alt="Imagen 2" />
+                <div class="overlay">
+                  <p>MUJER</p>
+                  <button>Click</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-container">
+                <img src="img/BOTON_ACCESORIO.jpg" alt="Imagen 3" />
+                <div class="overlay">
+                  <p>ACCESORIO</p>
+                  <button>Click</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="titulo-con-lineas">
+          <div class="linea"></div>
+          <h3>SERVICIOS</h3>
+          <div class="linea"></div>
+        </div>
+        <!--! SERVICIOS -->
+        <section id="services" class="services">
+          <div class="container">
+            <div class="service-items">
+              <div class="service-item">
+                <h3>Artículos</h3>
+                <p>Contenido actualizado sobre moda, salud y más.</p>
+              </div>
+              <div class="service-item">
+                <h3>Eventos</h3>
+                <p>Participa en talleres y actividades únicas.</p>
+              </div>
+              <div class="service-item">
+                <h3>Comunidad</h3>
+                <p>Conecta con mujeres de todo el mundo.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="titulo-con-lineas">
+          <div class="linea"></div>
+          <h3>CONTACTO</h3>
+          <div class="linea"></div>
+        </div>
+
+        <!--! CONTACTO -->
+        <section id="contact" class="contact">
+          <div class="container4">
+            <p>Escríbenos para más información.</p>
+            <form class="contact-form">
+              <input type="text" placeholder="Nombre" required />
+              <input type="email" placeholder="Correo" required />
+              <textarea placeholder="Mensaje" rows="5" required></textarea>
+              <button type="submit" class="btn">Enviar</button>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2024 Mi Tienda Online. Todos los derechos reservados.</p>
+      <p><a href="#terminos">Términos y condiciones</a></p>
+      <p>
+        <a href="https://facebook.com">Facebook</a> |
+        <a href="https://instagram.com">Instagram</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
